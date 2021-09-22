@@ -13,12 +13,13 @@
       "url": "https://package.openupm.com"
     },
     "com.de-panther.webxr": {
-      "version": "file:webxr",
+      "version": "https://github.com/De-Panther/unity-webxr-export.git?path=/Packages/webxr",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.xr.management": "3.2.13"
-      }
+      },
+      "hash": "ac4bcd60b25a9f4787b64fb3b26e411f9c5acc04"
     },
     "com.de-panther.webxr-input-profiles-loader": {
       "version": "0.3.7",
@@ -31,12 +32,13 @@
       "url": "https://package.openupm.com"
     },
     "com.de-panther.webxr-interactions": {
-      "version": "file:webxr-interactions",
+      "version": "https://github.com/De-Panther/unity-webxr-export.git?path=/Packages/webxr-interactions",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.de-panther.webxr": "0.12.0-preview"
-      }
+      },
+      "hash": "ac4bcd60b25a9f4787b64fb3b26e411f9c5acc04"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
@@ -134,7 +136,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.0.1",
+      "version": "4.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
