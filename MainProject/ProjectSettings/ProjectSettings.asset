@@ -580,7 +580,7 @@ PlayerSettings:
   webGLTemplate: PROJECT:WebXR2020
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -590,7 +590,7 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration:
-    WebGL: 2
+    WebGL: 1
   managedStrippingLevel:
     WebGL: 3
   incrementalIl2cppBuild: {}
@@ -604,7 +604,8 @@ PlayerSettings:
   gcIncremental: 0
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    WebGL: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
